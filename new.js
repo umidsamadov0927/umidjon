@@ -7,67 +7,83 @@
 
 // 1-misol
 
+// function one (bir,ikki) {
+//     let a = bir
+//     let b = ikki
+//     console.log("A")
+//     for (a; a > 0; a -- ) {
+//         console.log(a)
+//     }
+//     console.log("B")
+//     for (b; b > 0; b -- ) {
+//         console.log(b)
+//     }
+// }one (10,15)
 
-// let a = 5
-// let b = 10
-// console.log("B")
-// for (a; a > 0; a -- ) {
-//     console.log(a)
-// }
-// console.log("B")
-// for (b; b > 0; b -- ) {
-//     console.log(b)
-// }
 
 // 2-misol
 
-
-// let a = 500
-// for (let i = 1; i <= 10; i++ ) {
-//     for (let j = 1; j <= 1; j++ ) {
-//         console.log(j*i + " kg konfet")
+// function two (sum , cycle) {
+//     let a = sum
+//     for (let i = 1; i <= cycle; i++ ) {
+//         for (let j = 1; j <= 1; j++ ) {
+//             console.log(j*i + " kg konfet")
+//         }
+//         console.log(a * i + " so'm")
 //     }
-//     console.log(a * i + " so'm")
 // }
+// two (1000 , 5)
 
 // 3-misol
 
-
-// let sum = 100
-// for (let i = 0.1; i <= 1.0; i+= 0.1) {
-//     console.log(`${i.toFixed(1)} kg = ${(sum * i ).toFixed(0)} so'm`)
+// function three (money) {
+//     let sum = money
+//     for (let i = 0.1; i <= 1.0; i+= 0.1) {
+//         console.log(`${i.toFixed(1)} kg = ${(sum * i ).toFixed(0)} so'm`)
+//     }
 // }
+// three(500)
+
 
 // 4-misol
 
-// let a = 3
-// let b = 7
-// let c = 0
-// for (let i = a; i <= b; i++ ) {
-//     c += i
-// }
-// console.log(`Yig'indisi: ${c}`)
+// function four (one,two,three) {
+//     let a = one
+//     let b = two
+//     let c = three
+//     for (let i = a; i <= b; i++ ) {
+//         c += i
+//     }
+//     console.log(`Yig'indisi: ${c}`)
+// } four(5, 10 , 0)
+
 
 // 5-misol
 
-// let b = 1
-// let  first = 2
-// let second = 5
-// for (let a = first; a <= second; a++) {
-//   b *=a
-// }
-// console.log(b)
+// function five (one, two, three) {
+//     let b = one
+//     let  first = two
+//     let second = three
+//     for (let a = first; a <= second; a++) {
+//         b *=a
+//     }
+//     console.log(b)
+// } five(2,4,7)
+
 
 // 6-misol
 
 
-// for (let a = 1; a <= 100; a++) {
-//     if (a % 3 === 0) {
-//         console.log("Fizz")
-//     }else if (a % 5 === 0) {
-//         console.log("Buzz")
-//     }else{
-//         console.log("FizzBuzz")
+// function six (one,two) {
+//     for (let a = one; a <= two; a++) {
+//         if (a % 3 === 0) {
+//             console.log("Fizz")
+//         }else if (a % 5 === 0) {
+//             console.log("Buzz")
+//         }else{
+//             console.log("FizzBuzz")
+//         }
 //     }
-// }
+// } six (5, 110)
+
 

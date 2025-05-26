@@ -91,5 +91,164 @@
 // solve();
 
 
+// SHART OPIRATORLARI
 
+// // 1-misol
+// let a = parseInt(prompt("What is your age?"))
+// function one (i) {
+//     switch (true) {
+//         case a >= i:
+//             alert("Siz voyaga yetgansiz")
+//             break
+//         default:
+//             alert("Siz voyaga yetganmasiz")
+//     }
+// }
+// one(18)
 
+// 2-misol
+// let a = parseInt(prompt("Hohlagan soniggizni kiriting"))
+// function two () {
+//     switch (true) {
+//         case a == 0 :
+//             alert("Bu nool")
+//             break;
+//         case a >= 0 :
+//             alert("Bu musbat oka 😎")
+//             break
+//         case a < 0 :
+//             alert("Bu manfiy brat 😎")
+//             break;
+//
+//     }
+// }
+// two()
+
+// 3-misol
+// let i = prompt("parolni kiriting")
+// let a = "manfaat123"
+// function three () {
+//     switch (true) {
+//         case i === a :
+//             console.log("parol tug'ri")
+//             break
+//         default:
+//             console.log("parol notug'ri")
+//             break
+//
+//     }
+// }
+// three()
+
+// 4-misol
+// let a = parseInt(prompt("bahonghgzini kiriting"))
+// function four () {
+//     switch (true) {
+//         case a >= 90:
+//             alert("alo")
+//             break
+//         case a >= 70 && a <= 89:
+//             alert("Yaxshi")
+//             break
+//         case a >= 50 && a <= 69:
+//             alert("Qoniqarli")
+//             break
+//         default:
+//             alert("Yomon")
+//             break
+//     }
+// }
+// four()
+
+// 5-misol
+// let a = prompt("hafta kuni")
+//
+// function five() {
+//     switch (true) {
+//         case a === "dushanba":
+//         case a === "seshanba":
+//         case a === "chorshanba":
+//         case a === "payshanba":
+//         case a === "juma":
+//             alert("ish kuni")
+//             break
+//         default:
+//             alert("dam olish kuni")
+//
+//     }
+// }
+//
+// five()
+
+// 6-msiol
+// let a = parseInt(prompt("haroratgizni kiriting"))
+// function six () {
+//     switch (true) {
+//         case a >= 30 :
+//             alert("uta issiq")
+//             break
+//         case a >= 15 && a <= 30:
+//             alert("Ob-havo yaxshi")
+//             break
+//         case a >= 0 && a <= 15:
+//             alert("salqin uka shamollatib quyasan qalinro kiyin")
+//             break
+//         default:
+//             alert("agar qalin kiyinmasang aniq shomollatasan ")
+//     }
+// }
+// six ()
+
+// 7-misol
+
+// let a = parseInt(prompt("1-chi son"))
+// let b = parseInt(prompt("2-chi son"))
+// let c = parseInt(prompt("3-chi son"))
+// function seven () {
+//     switch (true) {
+//         case a >= b && a >= c:
+//             alert("Eng katta son " + a)
+//             break
+//         case b >= a && b >= c:
+//             alert("Eng katta son " + b)
+//             break
+//         case c >= a && c >= b:
+//             alert("Eng katta son " + c)
+//             break
+//     }
+// }
+// seven()
+
+// 8-misol
+
+// let a = prompt("Birinchi tomonni kiriting")
+// let b = prompt("Ikkinchi tomonni kiriting")
+// let c = prompt("Uchunchi tomonni kiriting")
+// function eight () {
+//     switch (true) {
+//         case a === b && b === c:
+//             alert("Teng tomonli uchburchak")
+//             break
+//         case a === b || a === c || b === c:
+//             alert("Teng yonli uchburchak")
+//             break
+//         default:
+//             alert("Turli tomonli")
+//     }
+// }
+// eight()
+
+// 9-misol
+
+// let a = prompt("Raqaminggizni kiriting")
+// let b = "+998"
+// function nine () {
+//     switch (true) {
+//         case a === b:
+//             alert("true")
+//             break
+//         default:
+//             alert("false")
+//     }
+// }
+// nine()
